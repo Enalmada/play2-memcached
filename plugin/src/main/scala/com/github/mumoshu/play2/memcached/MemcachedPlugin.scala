@@ -128,7 +128,6 @@ class MemcachedPlugin(app: Application) extends CachePlugin {
           None
       }
     }
-
     
     def set(key: String, value: Any, expiration: Int) {
       if (value == null) {
